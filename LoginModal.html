@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Created by Tivotal-->
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Animated Login/Signup Forms</title>
+
+  <!--font awesome(for icons)-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+
+  <!--css file-->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <button id="modalSilder2">Modal</button>
+
+  <div class="wrapper">
+    <span class="caroxModal modalSilder3"> &times;</span>
+    <span class="bg1"></span>
+
+    <div class="form-wrapper login">
+      <h2 class="title">Login</h2>
+      <form action="#">
+        <div class="input-box">
+          <input type="text" required />
+          <label for="">Username</label>
+          <i class="fas fa-user"></i>
+        </div>
+        <div class="input-box">
+          <input type="password" required />
+          <label for="">Password</label>
+          <i class="fas fa-lock"></i>
+        </div>
+        <button class="btn" type="submit">Login</button>
+        <div class="link">
+          <p>
+            Don't have an account? <a href="#" class="signup-link">SignUp</a>
+          </p>
+        </div>
+      </form>
+    </div>
+
+    <div class="info-wrapper login">
+      <h2>Welcome Back</h2>
+      <p>Login into your account to access our services</p>
+    </div>
+
+    <span class="bg2"></span>
+
+    <div class="form-wrapper register">
+      <h2 class="title">Signup</h2>
+      <form action="#">
+        <div class="input-box">
+          <input type="email" required />
+          <label for="">Email Address</label>
+          <i class="fas fa-envelope"></i>
+        </div>
+        <div class="input-box">
+          <input type="text" required />
+          <label for="">Username</label>
+          <i class="fas fa-user"></i>
+        </div>
+        <div class="input-box">
+          <input type="password" required />
+          <label for="">Password</label>
+          <i class="fas fa-lock"></i>
+        </div>
+        <button class="btn" type="submit">Register</button>
+        <div class="link">
+          <p>
+            Already have an account? <a href="#" class="login-link">Login</a>
+          </p>
+        </div>
+      </form>
+    </div>
+
+    <div class="info-wrapper register">
+      <h2>Welcome!</h2>
+      <p>Create your account to access our services</p>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
